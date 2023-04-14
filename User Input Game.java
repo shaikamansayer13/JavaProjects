@@ -9,7 +9,7 @@ public class Main
     int usernum=0;
     do
       {
-         System.out.println("Please choose a number in range of 1 -100 :");
+         System.out.println("Please choose a number in range of 1 - 100 :");
          usernum = sc.nextInt ();
 	if (usernum == mynum)
 	  {
@@ -21,7 +21,6 @@ public class Main
 	    System.out.println ("number is too large :");
 	  }
 	else
-	
 	  {
 	    System.out.println ("number is too small :");
 	  }
